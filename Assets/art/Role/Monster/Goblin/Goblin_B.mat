@@ -77,7 +77,7 @@ Material:
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
-    - _FresnelStrength: 0.239
+    - _FresnelStrength: 0
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
@@ -88,8 +88,8 @@ Material:
     - _OcclusionStrength: 1
     - _Parallax: 0.02
     - _RimPower: 4
-    - _SmoothnessMax: 0.6927683
-    - _SmoothnessMin: 0
+    - _SmoothnessMax: 0.7350695
+    - _SmoothnessMin: 0.12690355
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SpecularTint: 0.375

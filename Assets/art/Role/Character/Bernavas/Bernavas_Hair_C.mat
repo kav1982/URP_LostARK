@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Bernavas_Hair_C
-  m_Shader: {fileID: 4800000, guid: 5cc2dd04c1cff53458535a7cdc3b3db9, type: 3}
+  m_Shader: {fileID: 4800000, guid: 28bedc36c1d207845a12c92a946a9ba1, type: 3}
   m_ShaderKeywords: _DOUBLE_SPECULAR _RIM _SSS _TONEMAPPING_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -52,6 +52,10 @@ Material:
         m_Texture: {fileID: 2800000, guid: 8924d2e026424cb48bd3b83410dc47d9, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _MaskMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _MaskTex:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -78,6 +82,8 @@ Material:
     - _BumpScale: 1
     - _Cull: 2
     - _CullMode: 0
+    - _CurveMax: 1
+    - _CurveMin: 0
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
     - _DoubleSpecular: 1
@@ -93,9 +99,10 @@ Material:
     - _NormalScale: 1
     - _OcclusionStrength: 1
     - _Parallax: 0.02
-    - _RimPower: 15.6
+    - _RimPower: 3.4
     - _Shift: 0.24
-    - _SmoothnessMax: 0.6
+    - _Smoothness: 0.9
+    - _SmoothnessMax: 0.645
     - _SmoothnessMin: 0
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
@@ -116,6 +123,7 @@ Material:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmiColor: {r: 0, g: 0, b: 0, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _RimColor: {r: 1, g: 1, b: 1, a: 15.6}
-    - _SSSColor: {r: 0.764151, g: 0.516066, b: 0.32079923, a: 1}
+    - _RimColor: {r: 1, g: 1, b: 1, a: 3.4}
+    - _SSSColor: {r: 0.9245283, g: 0.34186748, b: 0.11774653, a: 1}
+    - _SmoothCurve: {r: 0, g: 1, b: 0, a: 1}
     - _Smoothness: {r: 0, g: 0.761, b: 0, a: 0}

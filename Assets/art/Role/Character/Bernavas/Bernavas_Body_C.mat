@@ -81,18 +81,18 @@ Material:
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
-    - _Metallic: 0.52
+    - _Metallic: 1
     - _Mode: 0
     - _NormalMapDXGLSwitch: 0
     - _NormalScale: 1
     - _OcclusionStrength: 1
     - _Parallax: 0.02
-    - _RimPower: 4
-    - _SmoothnessMax: 0.7770448
-    - _SmoothnessMin: 0.17941688
+    - _RimPower: 8.49
+    - _SmoothnessMax: 0.75491387
+    - _SmoothnessMin: 0
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
-    - _SpecularTint: 0.5
+    - _SpecularTint: 0.211
     - _SrcBlend: 1
     - _ToneMapping: 1
     - _Transparent: 1
@@ -106,5 +106,5 @@ Material:
     - _EmiColor: {r: 0, g: 0, b: 0, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _EmissiveColor: {r: 0, g: 0, b: 0, a: 1}
-    - _RimColor: {r: 1, g: 1, b: 1, a: 4}
+    - _RimColor: {r: 1, g: 1, b: 1, a: 8.49}
     - _SSSColor: {r: 0.09433961, g: 0.051619787, b: 0.047614805, a: 1}

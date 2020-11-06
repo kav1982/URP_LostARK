@@ -9,10 +9,10 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: material_0
   m_Shader: {fileID: 4800000, guid: 16098e7534bf71d49b77c6e827cc5b38, type: 3}
-  m_ShaderKeywords: _EMISSION _RIM
+  m_ShaderKeywords: _EMISSION _NORMALMAP _RIM
   m_LightmapFlags: 1
   m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
+  m_DoubleSidedGI: 1
   m_CustomRenderQueue: 2000
   stringTagMap:
     RenderType: Opaque
@@ -57,7 +57,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _NormalMap:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: fa247abb99fbc4643902cb6128a4ae2e, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
@@ -82,19 +82,21 @@ Material:
     - _GlossMapScale: 1
     - _Glossiness: 0
     - _GlossyReflections: 1
-    - _Metallic: 1
+    - _Metallic: 0.49
     - _Mode: 1
+    - _NormalMapDXGLSwitch: 0
     - _NormalScale: 1
     - _OcclusionStrength: 1
     - _Parallax: 0.02
     - _RimPower: 4
-    - _SmoothnessMax: 1
+    - _SmoothnessMax: 0.53
     - _SmoothnessMin: 0
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SpecularTint: 0
     - _SrcBlend: 1
     - _Transparent: 1
+    - _TransparentZWrite: 0
     - _UVSec: 0
     - _ZWrite: 1
     - _sssToggle: 0

@@ -98,6 +98,11 @@ Material:
     - _Transparent: 1
     - _TransparentZWrite: 0
     - _UVSec: 0
+    - _WindDirection: 40
+    - _WindIntensity: 0.2
+    - _WindScale: 0.2
+    - _WindSpeed: 0.5
+    - _WindToggle: 0
     - _ZWrite: 1
     - _sssToggle: 0
     m_Colors:
@@ -108,3 +113,4 @@ Material:
     - _EmissionColorUI: {r: 1, g: 1, b: 1, a: 1}
     - _RimColor: {r: 0.09656461, g: 0.5113178, b: 0.6603774, a: 1.9}
     - _SSSColor: {r: 0.7, g: 0.06999998, b: 0.01, a: 1}
+    - _WindParam: {r: 0.2, g: 0, b: 0.2, a: 0.5}

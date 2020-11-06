@@ -12,7 +12,7 @@ Material:
   m_ShaderKeywords: _EMISSION _NORMALMAP _RIM
   m_LightmapFlags: 1
   m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
+  m_DoubleSidedGI: 1
   m_CustomRenderQueue: 2000
   stringTagMap:
     RenderType: Opaque
@@ -78,23 +78,25 @@ Material:
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
     - _EmissionScaleUI: 0
-    - _FresnelStrength: 1
+    - _FresnelStrength: 0.255
     - _GlossMapScale: 1
     - _Glossiness: 0
     - _GlossyReflections: 1
     - _Metallic: 0
     - _Mode: 1
+    - _NormalMapDXGLSwitch: 0
     - _NormalScale: 1
     - _OcclusionStrength: 1
     - _Parallax: 0.02
     - _RimPower: 4
-    - _SmoothnessMax: 0.209
+    - _SmoothnessMax: 0.557
     - _SmoothnessMin: 0
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
-    - _SpecularTint: 0
+    - _SpecularTint: 0.549
     - _SrcBlend: 1
     - _Transparent: 1
+    - _TransparentZWrite: 0
     - _UVSec: 0
     - _ZWrite: 1
     - _sssToggle: 0

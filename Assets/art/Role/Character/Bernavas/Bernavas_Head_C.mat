@@ -88,11 +88,11 @@ Material:
     - _DetailNormalMapScale: 1
     - _DoubleSpecular: 0
     - _DstBlend: 0
-    - _FresnelStrength: 0.208
+    - _FresnelStrength: 1
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
-    - _Intensity: 0.637
+    - _Intensity: 0.806
     - _Metallic: 0
     - _Mode: 0
     - _NormalMapDXGLSwitch: 0
@@ -101,7 +101,7 @@ Material:
     - _Parallax: 0.02
     - _RimPower: 19.3
     - _Shift: -0.05
-    - _Smoothness: 0.657
+    - _Smoothness: 0.668
     - _SmoothnessMax: 0.289
     - _SmoothnessMin: 0
     - _SmoothnessTextureChannel: 0
